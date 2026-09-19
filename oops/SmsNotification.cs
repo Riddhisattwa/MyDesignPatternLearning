@@ -1,19 +1,25 @@
 namespace oops
 {
-    public class SmsNotification: Notification
+    public class SmsNotification: INotification
     {
-        private string mobilenumFrom;
-        private string mobilenumTo;
-        public SmsNotification():base()
-        {
-            
-        }
-        public SmsNotification(string fromnum, string tonum, string msg): base(msg)
+        private readonly string mobilenumFrom;
+        private readonly string mobilenumTo;
+
+        private string txtMsg;
+
+        public SmsNotification(string fromnum, string tonum)
         {
             mobilenumFrom = fromnum;
             mobilenumTo = tonum;
         }
-        public override void SendNotification()
+
+        public SmsNotification(string fromnum, string tonum, string msg)
+        {
+            mobilenumFrom = fromnum;
+            mobilenumTo = tonum;
+            txtMsg = msg;
+        }
+        public void SendNotification()
         {
             if(mobilenumFrom!=null && mobilenumFrom.Length == 10 && mobilenumTo!=null && mobilenumTo.Length == 10)
             {
@@ -25,11 +31,15 @@ namespace oops
         }
         private void CheckWithProvider()
         {
-            Console.WriteLine("Checking with provider with {0} has balance to send message {1}",mobilenumFrom,base.GetNotification());
+            Console.WriteLine("Checking with provider with {0} has balance to send message {1}",mobilenumFrom,txtMsg);
         }
         private void SendMessage()
         {
-          Console.WriteLine("Message {0} sent to {1}",base.GetNotification(), mobilenumTo);   
+          Console.WriteLine("Message {0} sent to {1}",txtMsg, mobilenumTo);   
+        }
+        public void UpdateMessage(string message)
+        {
+            this.txtMsg = message;
         }
     }
 }

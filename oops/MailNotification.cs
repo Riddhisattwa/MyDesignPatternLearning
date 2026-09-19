@@ -5,27 +5,35 @@ from outside and also inherits from Notification. We can create Notification obj
 */
 namespace oops
 {
-    public class MailNotification : Notification
+    public class MailNotification : INotification
     {
-        public MailNotification():base()
+        private string message;
+        public MailNotification()
         {
+            message="";
         }
-        public MailNotification(string message): base(message)
+        public MailNotification(string message)
         {
-            
+            this.message = message;
         }
-        public override void SendNotification()
+
+        public void SendNotification()
         {
             Authenticate();
             SendMessage();
         }
+
         private void Authenticate()
         {
             Console.WriteLine("Authenticating user");
         }
         private void SendMessage()
         {
-            Console.WriteLine("Sending Message to server:{0}",base.GetNotification());
+            Console.WriteLine("Sending Message to server:{0}",message);
+        }
+        public void UpdateMessage(string message)
+        {
+            this.message = message;
         }
     }
 }
