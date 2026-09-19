@@ -1,3 +1,6 @@
+/*
+binding the properties and method together. only exposing what is required and keeping rest secured.
+*/
 namespace oops
 {
     public class BankAccount
