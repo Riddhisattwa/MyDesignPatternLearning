@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("designlibtest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06cec13f4d73880b3a49444a47420a4fb324c58d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab539c06d2e70f5f1a6c436ce361b45fd4197ff8")]
 [assembly: System.Reflection.AssemblyProductAttribute("designlibtest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("designlibtest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
