@@ -1,0 +1,12 @@
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\bin\Debug\net10.0\solidlib.deps.json
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\bin\Debug\net10.0\solidlib.dll
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\bin\Debug\net10.0\solidlib.pdb
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\solidlib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\solidlib.AssemblyInfoInputs.cache
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\solidlib.AssemblyInfo.cs
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\solidlib.csproj.CoreCompileInputs.cache
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\solidlib.sourcelink.json
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\solidlib.dll
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\refint\solidlib.dll
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\solidlib.pdb
+C:\Users\Riddh\OneDrive\Documents\GitHub\MyDesignPatternLearning\solid\solidlib\obj\Debug\net10.0\ref\solidlib.dll
